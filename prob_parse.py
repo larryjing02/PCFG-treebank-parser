@@ -23,8 +23,8 @@ def get_frequencies(filename, elements):
 elements = ["subjh", "extracomp", "nadj_rc", "extradj_i_vp", "frag_np", "imper"]
 
 # Get frequencies for each file
-ecoc_freqs = get_frequencies("ecoc-pref.txt", elements)
-vm_freqs = get_frequencies("vm-pref.txt", elements)
+ecoc_freqs = get_frequencies("data/ecoc-pref.txt", elements)
+vm_freqs = get_frequencies("data/vm-pref.txt", elements)
 
 # Create bar chart
 bar_width = 0.35

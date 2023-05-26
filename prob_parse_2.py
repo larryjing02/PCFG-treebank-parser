@@ -34,8 +34,8 @@ def get_frequencies(filename, elements):
 elements = ["subjh", "extracomp", "nadj_rc", "extradj_i_vp", "frag_np", "imper"]
 
 # Get frequencies for each file
-ecoc_freqs, len_e = get_frequencies("ecoc-pref.txt", elements)
-vm_freqs, len_v = get_frequencies("vm-pref.txt", elements)
+ecoc_freqs, len_e = get_frequencies("data/ecoc-pref.txt", elements)
+vm_freqs, len_v = get_frequencies("data/vm-pref.txt", elements)
 
 
 for element in elements:
